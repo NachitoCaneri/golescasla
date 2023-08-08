@@ -1,0 +1,101 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif; 
+}
+
+body{
+    background-color: #083358;
+
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    color: #F6F6F6;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+
+
+h1{
+    color: #F6F6F6;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h2{
+    color: #F6F6F6;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.flexinicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.flexvideos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.card{
+    border: 0.5px;
+    background-color: #0F4471;
+    border-radius: 5px;
+    color: #F6F6F6;
+    text-align: center;
+}
+
+.cardgoles{
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn{
+    background-color: #0F4471;
+    padding: 1rem;
+    border: none;
+    color: #F6F6F6;
+    width: 50%;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #F6F6F6;
+    transition: 0.5s;
+    color: #0F4471;
+}
+
+.btn:active{
+    background-color: #FC3C3C;
+    transition: 0s;
+}

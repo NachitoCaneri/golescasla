@@ -39,7 +39,7 @@ h1{
     margin-bottom: 1rem;
 }
 
-h2{
+h2, h4{
     color: #F6F6F6;
     justify-content: center;
     text-align: center;
@@ -98,4 +98,25 @@ h2{
 .btn:active{
     background-color: #FC3C3C;
     transition: 0s;
+}
+
+
+.tabla{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border: solid 1px;
+    border-collapse: collapse;
+    background-color: #083358;
+    color: #F6F6F6;
+}
+
+tr{
+    border: 1px solid;
+}
+
+th,td {
+    padding: 5px;
 }
